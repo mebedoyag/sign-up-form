@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Norse;
+  src: url("../assets/fonts/Norse-Bold.otf");
+}
 html {
   box-sizing: border-box;
   --color-bttn: #596D48;
@@ -30,6 +34,8 @@ body {
 }
 h1 {
   text-transform: uppercase;
+  font-family: Norse;
+  font-size: 3rem;
 }
 .hero footer {
   color: white;
